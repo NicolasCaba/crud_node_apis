@@ -18,6 +18,5 @@ global.app.use('/', express.static(`${__dirname}/views`));
 
 // App listening
 global.app.listen(global.config.port, () => {
-  // eslint-disable-next-line no-console
   console.log(`Server running in port ${global.config.port}`);
 });
